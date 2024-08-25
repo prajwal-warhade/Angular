@@ -1,0 +1,45 @@
+.card {
+    margin-top: 10%;
+    margin-left: 24%;
+    display: flex;
+    width: 50%;   
+    justify-content: center;
+    background-image: url('src/images/b1.jpg');
+    background-size: cover;
+    box-shadow: 0 4px 8px rgb(80, 80, 80),
+                0 6px 20px rgba(0, 0, 0, 0.19); 
+    border-radius: 8px; 
+}
+
+.card-body{
+    justify-content:center;
+    
+}
+
+.card-body h1{
+    text-align: center;
+}
+.forms-inputs {
+    
+    width: 342px;
+    padding: 10px; 
+    font-size: 16px;
+    border: 1px solid #6b6a6a; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    
+}
+.forms-inputs input{
+    
+    justify-content: center;
+    width: 100%; 
+    padding: inherit; 
+    font-size: inherit; 
+    border-radius: 6px;
+     
+}
+.forms-inputs:focus {
+    border-color: #000000; 
+    box-shadow: 0 0 5px rgba(0, 30, 63, 0.5);
+}
+
